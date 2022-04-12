@@ -6,7 +6,7 @@
 <img src="./btcgif.gif" alt="Video Preview" width="1000px">
 </p>
 
-Watch my [video](https://www.youtube.com/watch?v=PcrhBHvcouo&t=118s) on this
+Watch my [video](https://youtu.be/PcrhBHvcouo) on this
 
 ### Credit
 Credit goes to @augnix who commented on a privated video of mine on how to solve my original issue <3
