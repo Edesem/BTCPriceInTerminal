@@ -1,5 +1,5 @@
 <h1 align="center">View Bitcoin price in terminal</h1>
-<p align="center">Simple curl script</p>
+<p align="center">Simple cURL and JQ script</p>
 
 ### Install 
 ```
