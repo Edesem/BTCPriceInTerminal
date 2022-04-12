@@ -1,9 +1,10 @@
 #!/bin/sh
 
 curl -s "https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC&tsyms=USD&e=CCCAGG" |
-	jq --raw-output '"The current price of BTC is (in USD): \(.DISPLAY.BTC.USD.PRICE)
-                     		        \(.DISPLAY.BTC.USD.CHANGEPCTDAY)% 			daily change
-                        	      \(.DISPLAY.BTC.USD.CHANGEDAY)  			daily change
-				      \(.DISPLAY.BTC.USD.HIGHDAY) 		24h high
-				      \(.DISPLAY.BTC.USD.LOWDAY) 		24h low
-                     	              \(.DISPLAY.BTC.USD.MKTCAP) 		market cap"'
+	jq --raw-output '"The current stats of BTC is (in USD): 
+\(.DISPLAY.BTC.USD.PRICE)		Price
+\(.DISPLAY.BTC.USD.CHANGEPCTDAY)% 			Daily change
+\(.DISPLAY.BTC.USD.CHANGEDAY)  		Daily change
+\(.DISPLAY.BTC.USD.HIGHDAY) 		24h High
+\(.DISPLAY.BTC.USD.LOWDAY) 		24h Low
+\(.DISPLAY.BTC.USD.MKTCAP) 		Market Cap"'
