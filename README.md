@@ -1,6 +1,16 @@
 <h1 align="center">View Bitcoin price in terminal</h1>
 <p align="center">Simple cURL and JQ script</p>
 
+##
+<p align="center">
+<img src="./btcgif.gif" alt="Video Preview" width="1000px">
+</p>
+
+Watch my [video](https://www.youtube.com/watch?v=PcrhBHvcouo&t=118s) on this
+
+### Credit
+Credit goes to @augnix who commented on a privated video of mine on how to solve my original issue <3
+
 ### Install 
 ```
 sudo curl -sL "https://raw.githubusercontent.com/Edesem/BTCPriceInTerminal/main/btc" -o /usr/local/bin/btc
