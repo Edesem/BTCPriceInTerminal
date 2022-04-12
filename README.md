@@ -3,7 +3,7 @@
 
 ### Install
 
-```
+```bash
 if hash jq 2>/dev/null; then
   sudo curl -sL "https://raw.githubusercontent.com/Edesem/BTCPriceInTerminal/main/btc" -o /usr/local/bin/btc
   sudo chmod +x /usr/local/bin/btc
