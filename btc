@@ -1,0 +1,18 @@
+#!/bin/sh
+JsonDATA=$(curl -s "https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC&tsyms=USD&e=CCCAGG")
+
+curl_data () {
+	echo $JsonDATA | jq | grep -i $1 | tail -n 1 | cut -b $2 
+}
+
+price=$(curl_data \"PRICE\" 21-28)
+ChangePCTDay=$(curl_data \"CHANGEPCTDAY\" 26-29)
+ChangeDay=$(curl_data \"CHANGEDAY\" 25-30)
+Supply=$(curl_data \"SUPPLY\" 23-34)
+MktCap=$(curl_data \"MKTCAP\" 22-29)
+
+echo "The current price of BTC is: $"$price "USD
+			     "$ChangePCTDay"% daily change
+		   	     $"$ChangeDay "USD daily change
+		 	     $"$Supply "USD total supply
+			     $"$MktCap "USD" market cap
