@@ -20,6 +20,8 @@ sudo chmod +x /usr/local/bin/btc
 ### Usage
 Type btc in the terminal
 
+  **Clarification**, this may break in the future if the website [bitcoinprice.com](https://www.bitcoinprice.com/) has an api change, goes down or of such (as this script essentially just scrapes the api of the website for the stats). This may not work for you if you are unable to access the aforementioned website for whatever paticular reason.
+
 ### Update
 Just redo the curl command
 
