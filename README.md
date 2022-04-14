@@ -9,7 +9,7 @@
 Watch my [video](https://youtu.be/PcrhBHvcouo) on this
 
 ### Credit
-Credit goes to @augnix who commented on a privated video of mine on how to solve my original issue <3
+Credit goes to [alpheratz0](https://github.com/alpheratz0) who commented on a privated video of mine on how to solve my original issue <3
 
 ### Install 
 ```
@@ -29,4 +29,4 @@ Just redo the curl command
 `sudo rm /usr/local/bin/btc`
 
 ### License
-[GLP 3.0](https://raw.githubusercontent.com/Edesem/BTCPriceInTerminal/main/LICENSE)
+[GPL 3.0](https://raw.githubusercontent.com/Edesem/BTCPriceInTerminal/main/LICENSE)
